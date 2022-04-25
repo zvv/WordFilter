@@ -5,6 +5,8 @@ spring boot 版本
  mvn clean install
  
 ## 启动
+ 用idea打开启动
+ 或者
  java -jar word.filter-0.0.1-SNAPSHOT.jar
 
 ## 测试地址
