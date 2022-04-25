@@ -1,0 +1,29 @@
+server:
+  port: 9013
+
+# 接口文档及调试
+knife4j:
+  enable: true
+  setting:
+    language: zh-CN
+    enableSwaggerModels: true
+    enableDocumentManage: true
+    swaggerModelName: 实体类列表
+    enableVersion: false
+    enableReloadCacheParameter: false
+    enableAfterScript: true
+    enableFilterMultipartApiMethodType: POST
+    enableFilterMultipartApis: false
+    enableRequestCache: true
+    enableHost: false
+    enableHostText: 127.0.0.1:8000
+    enableHomeCustom: false
+    homeCustomLocation: classpath:markdown/home.md
+    enableSearch: false
+    enableFooter: false
+    enableFooterCustom: true
+    footerCustomContent: 版权所有 © 2006-2021 随锐科技集团股份有限公司 工业互联网产品中心
+    enableDynamicParameter: false
+    enableDebug: true
+    enableOpenApi: false
+    enableGroup: true
